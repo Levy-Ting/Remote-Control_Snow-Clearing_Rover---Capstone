@@ -1,0 +1,12 @@
+C:\Users\Arren Ting\Desktop\SnowAPI\CarClass\bin\Release\net5.0\CarClass.deps.json
+C:\Users\Arren Ting\Desktop\SnowAPI\CarClass\bin\Release\net5.0\CarClass.dll
+C:\Users\Arren Ting\Desktop\SnowAPI\CarClass\bin\Release\net5.0\ref\CarClass.dll
+C:\Users\Arren Ting\Desktop\SnowAPI\CarClass\bin\Release\net5.0\CarClass.pdb
+C:\Users\Arren Ting\Desktop\SnowAPI\CarClass\obj\Release\net5.0\CarClass.csproj.AssemblyReference.cache
+C:\Users\Arren Ting\Desktop\SnowAPI\CarClass\obj\Release\net5.0\CarClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arren Ting\Desktop\SnowAPI\CarClass\obj\Release\net5.0\CarClass.AssemblyInfoInputs.cache
+C:\Users\Arren Ting\Desktop\SnowAPI\CarClass\obj\Release\net5.0\CarClass.AssemblyInfo.cs
+C:\Users\Arren Ting\Desktop\SnowAPI\CarClass\obj\Release\net5.0\CarClass.csproj.CoreCompileInputs.cache
+C:\Users\Arren Ting\Desktop\SnowAPI\CarClass\obj\Release\net5.0\CarClass.dll
+C:\Users\Arren Ting\Desktop\SnowAPI\CarClass\obj\Release\net5.0\ref\CarClass.dll
+C:\Users\Arren Ting\Desktop\SnowAPI\CarClass\obj\Release\net5.0\CarClass.pdb

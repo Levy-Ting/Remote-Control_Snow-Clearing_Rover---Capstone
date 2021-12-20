@@ -1,0 +1,13 @@
+C:\Users\Arren Ting\Desktop\SnowAPI\SnowAPI\obj\Release\net5.0\PubTmp\Out\SnowAPI.exe
+C:\Users\Arren Ting\Desktop\SnowAPI\SnowAPI\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Arren Ting\Desktop\SnowAPI\SnowAPI\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\Users\Arren Ting\Desktop\SnowAPI\SnowAPI\obj\Release\net5.0\PubTmp\Out\SnowAPI.dll
+C:\Users\Arren Ting\Desktop\SnowAPI\SnowAPI\obj\Release\net5.0\PubTmp\Out\SnowAPI.deps.json
+C:\Users\Arren Ting\Desktop\SnowAPI\SnowAPI\obj\Release\net5.0\PubTmp\Out\SnowAPI.runtimeconfig.json
+C:\Users\Arren Ting\Desktop\SnowAPI\SnowAPI\obj\Release\net5.0\PubTmp\Out\SnowAPI.pdb
+C:\Users\Arren Ting\Desktop\SnowAPI\SnowAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\Arren Ting\Desktop\SnowAPI\SnowAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Arren Ting\Desktop\SnowAPI\SnowAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Arren Ting\Desktop\SnowAPI\SnowAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Arren Ting\Desktop\SnowAPI\SnowAPI\obj\Release\net5.0\PubTmp\Out\CarClass.dll
+C:\Users\Arren Ting\Desktop\SnowAPI\SnowAPI\obj\Release\net5.0\PubTmp\Out\CarClass.pdb
