@@ -1,0 +1,40 @@
+﻿@model SnowWebsite.Models.Car;
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Car Website</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="~/js/ajax.js"></script>
+    <script src="~/js/site.js"></script>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <div class="text-center">
+        Pressing WASD Keys will allow the Car to move in the corresponding direction
+        <br />
+        W = Move Forward,
+        <br />
+        A = Move Left,
+        <br />
+        S = Reverse,
+        <br />
+        D = Move Right
+        <br />
+        Key Up = Shovel Up
+        <br />
+        Key Down = Shovel Down
+    </div>
+
+    <iframe src="http://96.52.156.246" width="1080" height="920"></iframe>
+
+    <br />
+    <br />
+    <p class="display-direction"></p>
+</body>
+</html>
+

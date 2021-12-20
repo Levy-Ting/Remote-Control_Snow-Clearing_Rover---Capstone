@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowWebsite", "SnowWebsite\SnowWebsite.csproj", "{50C92E3F-9D5F-4600-9FA7-8B6513433DB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50C92E3F-9D5F-4600-9FA7-8B6513433DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C92E3F-9D5F-4600-9FA7-8B6513433DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C92E3F-9D5F-4600-9FA7-8B6513433DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C92E3F-9D5F-4600-9FA7-8B6513433DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABC33D65-B208-4E56-8E53-65A8491B534B}
+	EndGlobalSection
+EndGlobal
