@@ -120,3 +120,5 @@ WebAPI/Client Procedure:
 
   ### Other Materials :
   
+  [User Manual.pdf](https://github.com/Levy-Ting/Remote-Control_Snow-Clearing_Rover---Capstone/files/7790464/User.Manual.pdf)
+
