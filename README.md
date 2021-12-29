@@ -35,7 +35,7 @@ Hardware :
 ## Hardware Design
 ![image](https://user-images.githubusercontent.com/51100940/147695228-0498e393-053f-41f0-a1f4-a8b47fa6f43a.png)
 
-Hardware Design:
+Hardware Design:  
 1)Rover body consists of a rectangle body with 43 by 64 cm dimensions, made from plywood and metal brackets which waws chosen because of its ease in which it can be modified.
 
 2)The wheels of the rover are driven by four IG42 24V motors which are responsible for the movement and steering of the rover. The rover uses skid steering to turn by having the wheels on the left and right sides spin in the opposite directions to turn left or right. 
