@@ -81,10 +81,24 @@ WebAPI/Client Procedure:
 
 ## Setup
 
-  ### Change Address :
+  ### General Use Startup :
+  - Connect 12v batteries to corresponding colored alligator clips
+  - Connect 9V battery
+  - Wait for LED to turn blue on wifi receiver
+  - Open website and turn on camera
 
-  ### Port Forward :
+  ### ESP32CAM Setup and Port Forward :
+  - Change wifi ssid and password at the top of Car-Camera code and reflash the ESP32CAM
+  - Wait for rover the turn on and ESP32CAM to connect to wifi
+  - Provide ESP32CAM with static IP Address
+  - Port Forwards ESP32CAM ip address to accept requests on port 80
+  
+  ### ESP8266 Wifi Setup : 
+  - Change wifi ssid and password at the top of Car-Wifi code and reflash the ESP8266
   
   ### Server Setup :
+  - Host server using provider of or server of choice and save the IP address
+
+  ### Client Setup :
+  - 
   
-  ### Hardware Setup :
