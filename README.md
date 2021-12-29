@@ -8,10 +8,10 @@ languages ment to be used on multiple embedded systems and servers as required. 
 - Adjustable front shovel attachment
 - rechargable 12v Batteries
 
-##Contents
+## Contents
 
-##Setup
+## Setup
 
-##Hardware Design
+## Hardware Design
 
 ## Software Design
