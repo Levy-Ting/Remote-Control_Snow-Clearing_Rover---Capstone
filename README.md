@@ -88,7 +88,8 @@ WebAPI/Client Procedure:
   - Open website and turn on camera
 
   ### ESP32CAM Setup and Port Forward :
-  - Change wifi ssid and password at the top of Car-Camera code and reflash the ESP32CAM
+  - Change wifi ssid and password on line 22 and 23 of Car-Camera code CamerawebServer.ino
+  - reflash the ESP32CAM
   - Wait for rover the turn on and ESP32CAM to connect to wifi
   - Provide ESP32CAM with static IP Address
   - Port Forwards ESP32CAM ip address to accept requests on port 80
