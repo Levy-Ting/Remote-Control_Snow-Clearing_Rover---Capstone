@@ -81,10 +81,10 @@ WebAPI/Client Procedure:
 
 ## Setup
 
-  ### Change Address
+  ### Change Address :
 
-  ### Port Forward
-
-  ### Server Setup
+  ### Port Forward :
   
-  ### Hardware Setup
+  ### Server Setup :
+  
+  ### Hardware Setup :
