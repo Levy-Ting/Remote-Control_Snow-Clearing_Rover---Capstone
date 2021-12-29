@@ -17,10 +17,9 @@ Code :
 Car-Main - Code for the LM476RE Developement board acting as the brain of the rover
 Car-Wifi - Code for the wifi receiver of the rover that relays commands
 Car-Camera - Code for the front-mounted ESP32CAM video camera
+Web-Client - 
 
 ## Hardware Design
-![image](https://user-images.githubusercontent.com/51100940/147695011-9ff6eb62-78b9-43e1-bbc4-ce19752b2697.png)
-The Rover has a
 
 ## Software Design
 
