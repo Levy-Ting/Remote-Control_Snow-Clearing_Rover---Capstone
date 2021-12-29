@@ -94,7 +94,9 @@ WebAPI/Client Procedure:
   - Port Forwards ESP32CAM ip address to accept requests on port 80
   
   ### ESP8266 Wifi Setup : 
-  - Change wifi ssid and password at the top of Car-Wifi code and reflash the ESP8266
+  - Change wifi ssid and password on line 7 and 8 of main.cpp of the Car-Wifi code
+  - Change serverName on line 10 to match the servername and API path of current server
+  - Refrash ESP8266 Module
   
   ### Server Setup :
   - Host server using provider of or server of choice and save the IP address
