@@ -15,8 +15,12 @@ languages ment to be used on multiple embedded systems and servers as required. 
 - [Hardware Design](#hardware-design)
 - [Software Design](#software-design)
 - [Setup](#setup)
-  - [Change Address](#)
-  - [Port Forward](#)
+  - [General Use Startup](#general-use-startup-)
+  - [ESP32CAM Setup and Port Forward](#esp32cam-setup-and-port-forward-)
+  - [ESP8266 Wifi Setup](#esp8266-wifi-setup-)
+  - [Server Setup](#server-setup-)
+  - [Client Setup](#client-setup-)
+- [Other Materials](#other-materials-)
 ## Components
 
   ### Code :
