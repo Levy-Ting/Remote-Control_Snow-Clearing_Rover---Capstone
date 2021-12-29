@@ -12,7 +12,7 @@ namespace SnowWebsite.Controllers
 {
     public class CarController : Controller
     {
-        public string BaseURL = "https://car-server.azurewebsites.net/api/Car/";
+        public string BaseURL = "example@example.com/api/Car/";
 
         // HttpClient is intended to be instantiated once per application, rather than per-use.
         static readonly HttpClient client = new HttpClient();
