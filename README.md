@@ -45,6 +45,10 @@ Hardware :
 
 5) The control circuitry of the rover consists of a Nucleo-L476RG Micro board and an ESP8266 wi-fi module powered by the 5V output of the motor driver.
 
+6) A standalone ESP32-Camera is used as the component to capture video feed and display it back to the website.
+
+7) The snow shovel used on the rover is a standard 65cm snow shovel that is attached to the front of the rover with a rotating screw mechanism that controls elevation.The shovel itself is attached to a wooden plank that sits on a 200mm lead screw with a bolt attached with 2 guide rails on either side that is moved up or down by turning said screw with a Nema17 stepper motor. The stepper motor is controlled by the LM476 micro board using an L298N Motor Driver. The motor is powered by a separate 9V battery located beside the motor driver.
+
 ## Software Design
 ![image](https://user-images.githubusercontent.com/60587034/147696320-d7e0393a-0f41-4fb2-91f1-d177c6581275.png)
 
