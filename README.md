@@ -101,5 +101,9 @@ WebAPI/Client Procedure:
 
   ### Client Setup :
   - Change the base url in the CarController File on like 15 to reference the Server IP address and path to the server API
+
+  <img src="https://user-images.githubusercontent.com/51100940/147698293-2c8a606c-6efc-4245-9a7e-9e996e69c2e2.png">
+  
   - Save server IP address to connect to when using the car
+  - 
   
