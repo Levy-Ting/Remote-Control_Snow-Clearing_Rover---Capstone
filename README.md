@@ -21,7 +21,7 @@ Code :
 - Web-Server - C# ASP.NET - Code for the ASP.NET web API server that is used to relay commands between the client and rover wifi module
 
 ## Hardware Design
-![image](https://user-images.githubusercontent.com/51100940/147695228-0498e393-053f-41f0-a1f4-a8b47fa6f43a.png){:height="50%" width="50%"}
+![image](https://user-images.githubusercontent.com/51100940/147695228-0498e393-053f-41f0-a1f4-a8b47fa6f43a.png){:height="25%" width="25%"}
 
 ## Software Design
 
