@@ -10,8 +10,10 @@ languages ment to be used on multiple embedded systems and servers as required. 
 
 ## Contents
 
-## Setup
+## Components
 
 ## Hardware Design
 
 ## Software Design
+
+## Setup
