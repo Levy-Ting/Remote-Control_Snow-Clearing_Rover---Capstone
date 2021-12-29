@@ -9,7 +9,14 @@ languages ment to be used on multiple embedded systems and servers as required. 
 - rechargable 12v Batteries
 
 ## Contents
-
+- [Components](#components)
+  - [Code](#code-)
+  - [Hardware](#hardware-)
+- [Hardware Design](#hardware-design)
+- [Software Design](#software-design)
+- [Setup](#setup)
+  - [Change Address](#)
+  - [Port Forward](#)
 ## Components
 
 ### Code :
