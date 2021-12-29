@@ -52,4 +52,7 @@ languages ment to be used on multiple embedded systems and servers as required. 
 ## Software Design
 ![image](https://user-images.githubusercontent.com/60587034/147696320-d7e0393a-0f41-4fb2-91f1-d177c6581275.png)
 
+The software ecosystem of the rover consists of a server, web client, and multiple pieces of software on the internal components of the rover.The website client starts by sending commands to the server for it to save and process.Then the wifi module on the rover will ask the server for the current command before passing it to the microboard. After processing the commands, the microboard controls the wheels and the shovel stepper motor as required. While all of this is happening  the client is accessing the wifi camera directly to get a video feed of the rover.
+
+
 ## Setup
