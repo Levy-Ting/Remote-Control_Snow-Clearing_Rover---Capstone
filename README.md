@@ -26,7 +26,7 @@ languages ment to be used on multiple embedded systems and servers as required. 
   - Web-Client - C# ASP.NET - Code for the ASP.NET web client used to control the rover  
   - Web-Server - C# ASP.NET - Code for the ASP.NET web API server that is used to relay commands between the client and rover wifi module
   
-<img src="https://user-images.githubusercontent.com/60587034/147695784-9637f221-6cf3-458f-8707-f01f6e32e0c2.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/60587034/147695784-9637f221-6cf3-458f-8707-f01f6e32e0c2.png" width=70% height=50%>
   ### Hardware : 
 
   1) IG42 24V DC Motors
@@ -40,7 +40,7 @@ languages ment to be used on multiple embedded systems and servers as required. 
   9) ESP32CAM Wifi Camera
 
 ## Hardware Design
-<img src="https://user-images.githubusercontent.com/51100940/147695228-0498e393-053f-41f0-a1f4-a8b47fa6f43a.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/51100940/147695228-0498e393-053f-41f0-a1f4-a8b47fa6f43a.png" width=70% height=50%>
 
 1) Rover body consists of a rectangle body with 43 by 64 cm dimensions, made from plywood and metal brackets which waws chosen because of its ease in which it can be modified.
 
