@@ -20,6 +20,7 @@ Car-Camera - Code for the front-mounted ESP32CAM video camera
 Web-Client - 
 
 ## Hardware Design
+![image](https://user-images.githubusercontent.com/51100940/147695175-ecbe1b39-458f-4d16-bec0-6e4b23a51a7d.png)
 
 ## Software Design
 
