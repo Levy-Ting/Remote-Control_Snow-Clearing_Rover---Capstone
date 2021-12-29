@@ -46,5 +46,6 @@ Hardware :
 5) The control circuitry of the rover consists of a Nucleo-L476RG Micro board and an ESP8266 wi-fi module powered by the 5V output of the motor driver.
 
 ## Software Design
+![image](https://user-images.githubusercontent.com/60587034/147696320-d7e0393a-0f41-4fb2-91f1-d177c6581275.png)
 
 ## Setup
