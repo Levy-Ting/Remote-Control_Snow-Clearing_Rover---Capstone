@@ -2,7 +2,7 @@
 This repo contains the code for the various components of the snow clearing rover prototype that was created by Taras and Arren. The project includes a mix of ASP.net, C, and C++ 
 languages ment to be used on multiple embedded systems and servers as required. This document contains information and other resources about the project and how to use it.
 
-https://www.youtube.com/watch?v=Q_XcCKz51ts
+[![Watch the video](https://www.youtube.com/watch?v=Q_XcCKz51ts)
 
 ## Features
 - Website Application as a controller
