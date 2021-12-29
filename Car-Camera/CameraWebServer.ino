@@ -19,8 +19,8 @@
 
 #include "camera_pins.h"
 
-const char* ssid = "skype_EXT";
-const char* password = "levytskyy";
+const char* ssid = "*******";
+const char* password = "********";
 
 void startCameraServer();
 
