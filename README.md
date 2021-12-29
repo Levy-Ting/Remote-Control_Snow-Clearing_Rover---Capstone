@@ -12,7 +12,7 @@ languages ment to be used on multiple embedded systems and servers as required. 
 
 ## Components
 
-Code :
+### Code :
 - Car-Main - C++ - Code for the LM476RE Developement board acting as the brain of the rover  
 - Car-Wifi - C++ - Code for the wifi receiver of the rover that relays commands  
 - Car-Camera - C++ - Code for the front-mounted ESP32CAM video camera  
@@ -20,7 +20,7 @@ Code :
 - Web-Server - C# ASP.NET - Code for the ASP.NET web API server that is used to relay commands between the client and rover wifi module
 
 ![image](https://user-images.githubusercontent.com/60587034/147695784-9637f221-6cf3-458f-8707-f01f6e32e0c2.png)
-Hardware : 
+### Hardware : 
 
 1) IG42 24V DC Motors
 2) 12V Lead Acid Batteries
