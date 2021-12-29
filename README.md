@@ -1,2 +1,2 @@
-# Remote-Control_Snow-Clearing_Rover - Capstone
+# Remote-Control Snow-Clearing Rover - Capstone
  
