@@ -95,15 +95,13 @@ WebAPI/Client Procedure:
   
   ### ESP8266 Wifi Setup : 
   - Change wifi ssid and password on line 7 and 8 of main.cpp of the Car-Wifi code  
+  
 
-
-    <img src="https://user-images.githubusercontent.com/51100940/147698623-570440f2-4df1-406e-ae90-c09ad36c2edd.png">
+    <img src="https://user-images.githubusercontent.com/51100940/147698895-ac4a4839-77ee-4dc1-a363-4b08175a08fa.png">
   - Change serverName on line 10 to match the servername and API path of current server
-    <img src="https://user-images.githubusercontent.com/51100940/147698645-b62253d4-2e8f-41cf-93dc-8055a5d8546c.png">
+    <img src="https://user-images.githubusercontent.com/51100940/147698926-6e7e8818-3ef4-46b8-bc14-f9a7509297ea.png">
   - Reflash ESP8266 Module
 
-
-  
   ### Server Setup :
   - Host server using provider of or server of choice and save the IP address
 
