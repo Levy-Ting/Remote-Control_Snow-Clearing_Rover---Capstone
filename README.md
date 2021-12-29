@@ -14,9 +14,9 @@ languages ment to be used on multiple embedded systems and servers as required. 
 
 Code :
 
-Car-Main - Code for the LM476RE Developement board acting as the brain of the rover
-Car-Wifi - Code for the wifi receiver of the rover that relays commands
-Car-Camera - Code for the front-mounted ESP32CAM video camera
+Car-Main - Code for the LM476RE Developement board acting as the brain of the rover  
+Car-Wifi - Code for the wifi receiver of the rover that relays commands  
+Car-Camera - Code for the front-mounted ESP32CAM video camera  
 Web-Client - 
 
 ## Hardware Design
