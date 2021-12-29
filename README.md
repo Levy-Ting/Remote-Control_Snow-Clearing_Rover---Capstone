@@ -59,7 +59,24 @@ languages ment to be used on multiple embedded systems and servers as required. 
 ## Software Design
 ![image](https://user-images.githubusercontent.com/60587034/147696320-d7e0393a-0f41-4fb2-91f1-d177c6581275.png)
 
-The software ecosystem of the rover consists of a server, web client, and multiple pieces of software on the internal components of the rover.The website client starts by sending commands to the server for it to save and process.Then the wifi module on the rover will ask the server for the current command before passing it to the microboard. After processing the commands, the microboard controls the wheels and the shovel stepper motor as required. While all of this is happening  the client is accessing the wifi camera directly to get a video feed of the rover.
+The software ecosystem of the rover consists of a server, web client, and multiple pieces of software on the internal components of the rover.The website client starts by sending commands to the server for it to save and process.Then the wifi module on the rover will ask the server for the current command before passing it to the microboard. After processing the commands, the microboard controls the wheels and the shovel stepper motor as required. While all of this is happening  the client is accessing the wifi camera directly to get a video feed of the rover. Below detaisl how the software and WebAPI/Client works in detailed steps.
+
+Software Procedure: 
+
+1) The Software for the ESP8266 Wi-Fi module is programmed using the Arduino platform and utilizing the manufacturer provided ESP8266WiFi and ESP8266HTTPClient libraries along with the Arduino based WiFiClient.h and Arduino_Json libraries to facilitate the transmission and receiving of data. 
+
+2) The Module connects to a local Wi-Fi connection using the SSID and password credentials hard-coded. After a successful connection has been established, the module with attempt to retrieve a command from the WebAPI every 100ms in JSON format and, using the Arduino_JSON library, decode the information retrieved into workable data then is then transmitted to the LM476RG micro board over Rx and Tx pins available on the Wi-Fi module.
+
+3) The LM476 waits for a command to be transmitted from the Wi-Fi module. Once a command has been transmitted, the micro board will process the command and use that information to control either the motor and movement of the rover or the shovel attachment discussed further down. 
+
+4) If a movement command is received, it will be processed, and a corresponding number will be sent to the Sabertooth motor driver over serial communication to control the wheels. The numbers sent are in the form of a byte of data ranging from 0 - 255, with 1 - 127 controlling the right side of the motor and 128-255 controlling the left and 64 and 192 being stop for each perspective wheel.
+
+
+WebAPI/Client Procedure:
+
+1) Initially, the WebAPI is set up to hold an internal class named CarClass to hold data related to the status and/or movement of the rover. Next, two distinct HTTP request methods are created within the same WebAPI to process the communication of the client website, rover and WebAPI simultaneously, specifically GET requests. The first GET request method, aptly named SendCarInfo allows the client website to transmit a GET request with a specific char variable representing the direction of the car to the WebAPI. The WebAPI will then save the GET request’s directions to the directions within the CarClass variable.  The second GET request method named GetCommand will echo the current direction variable of the CarClass to any application requesting it. 
+
+2) For the client website, an intuitive landing page is set up to allow control access to the rover. A simple explanation for the rover’s movement commands will be displayed along with the camera’s settings menu when the website is first loaded. Once the loading of the website is complete, the user can start sending commands to the rover by pressing the corresponding keys listed on the website to start moving the rover. The website will ping the WebAPI continuously and activate the SendCarInfo GET request method, changing the WebAPI’s CarClass direction variable. At the same time, WebAPI will also issue a GetCommand request method back to the website to display what the current car’s direction is to the user.
 
 
 ## Setup
