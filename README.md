@@ -100,5 +100,6 @@ WebAPI/Client Procedure:
   - Host server using provider of or server of choice and save the IP address
 
   ### Client Setup :
-  - 
+  - Change the base url in the CarController File on like 15 to reference the Server IP address and path to the server API
+  - Save server IP address to connect to when using the car
   
