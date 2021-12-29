@@ -3,3 +3,15 @@ This repo contains the code for the various componenets of the snow clearing rov
 languages ment to be used on multiple embedded systems and servers as required. This document contains information and other resources about the project and how to use it.
 
 ## Features
+- Website Application as a controller
+- Live video feedback
+- Adjustable front shovel attachment
+- rechargable 12v Batteries
+
+##Contents
+
+##Setup
+
+##Hardware Design
+
+## Software Design
