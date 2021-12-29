@@ -19,25 +19,25 @@ languages ment to be used on multiple embedded systems and servers as required. 
   - [Port Forward](#)
 ## Components
 
-### Code :
-- Car-Main - C++ - Code for the LM476RE Developement board acting as the brain of the rover  
-- Car-Wifi - C++ - Code for the wifi receiver of the rover that relays commands  
-- Car-Camera - C++ - Code for the front-mounted ESP32CAM video camera  
-- Web-Client - C# ASP.NET - Code for the ASP.NET web client used to control the rover  
-- Web-Server - C# ASP.NET - Code for the ASP.NET web API server that is used to relay commands between the client and rover wifi module
+  ### Code :
+  - Car-Main - C++ - Code for the LM476RE Developement board acting as the brain of the rover  
+  - Car-Wifi - C++ - Code for the wifi receiver of the rover that relays commands  
+  - Car-Camera - C++ - Code for the front-mounted ESP32CAM video camera  
+  - Web-Client - C# ASP.NET - Code for the ASP.NET web client used to control the rover  
+  - Web-Server - C# ASP.NET - Code for the ASP.NET web API server that is used to relay commands between the client and rover wifi module
 
 ![image](https://user-images.githubusercontent.com/60587034/147695784-9637f221-6cf3-458f-8707-f01f6e32e0c2.png)
-### Hardware : 
+  ### Hardware : 
 
-1) IG42 24V DC Motors
-2) 12V Lead Acid Batteries
-3) Alligator clip Battery Connectors
-4) 12x2 Sabertooth Motor Driver
-5) Nucleo L476NG Microboard
-6) ESP8266 Wifi Module
-7) L298N Stepper Motor Driver
-8) 9V Battery for Stepper Motor
-9) ESP32CAM Wifi Camera
+  1) IG42 24V DC Motors
+  2) 12V Lead Acid Batteries
+  3) Alligator clip Battery Connectors
+  4) 12x2 Sabertooth Motor Driver
+  5) Nucleo L476NG Microboard
+  6) ESP8266 Wifi Module
+  7) L298N Stepper Motor Driver
+  8) 9V Battery for Stepper Motor
+  9) ESP32CAM Wifi Camera
 
 ## Hardware Design
 ![image](https://user-images.githubusercontent.com/51100940/147695228-0498e393-053f-41f0-a1f4-a8b47fa6f43a.png)
@@ -69,7 +69,7 @@ Software Procedure:
 
 3) The LM476 waits for a command to be transmitted from the Wi-Fi module. Once a command has been transmitted, the micro board will process the command and use that information to control either the motor and movement of the rover or the shovel attachment discussed further down. 
 
-4) If a movement command is received, it will be processed, and a corresponding number will be sent to the Sabertooth motor driver over serial communication to control the wheels. The numbers sent are in the form of a byte of data ranging from 0 - 255, with 1 - 127 controlling the right side of the motor and 128-255 controlling the left and 64 and 192 being stop for each perspective wheel.
+4) If a movement command is received, it will be processed, and a correspodnding number will be sent to the Sabertooth motor driver over serial communication to control the wheels. The numbers sent are in the form of a byte of data ranging from 0 - 255, with 1 - 127 controlling the right side of the motor and 128-255 controlling the left and 64 and 192 being stop for each perspective wheel.
 
 
 WebAPI/Client Procedure:
@@ -80,3 +80,11 @@ WebAPI/Client Procedure:
 
 
 ## Setup
+
+  ### Change Address
+
+  ### Port Forward
+
+  ### Server Setup
+  
+  ### Hardware Setup
