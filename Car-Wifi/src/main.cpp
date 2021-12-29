@@ -4,10 +4,10 @@
 #include <Arduino_JSON.h>
 
 //wifi info
-const char* ssid = "skype_EXT";
-const char* password = "levytskyy";
+const char* ssid = "*****";
+const char* password = "*****";
 //api server name
-const char* serverName = "http://car-server.azurewebsites.net/api/Car/GetCommand";
+const char* serverName = "example@example.com/api/Car/GetCommand";
 //timer for api call frequency
 unsigned long lastTime = 0;
 unsigned long timerDelay = 100;
